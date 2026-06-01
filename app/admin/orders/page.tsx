@@ -116,7 +116,7 @@ export default function OrdersPage() {
           </style>
         </head>
         <body>
-          <h1>Lamar Caffe</h1>
+          <h1>Stop Snack</h1>
           <div class="meta">
             <div>Invoice #${order.id}</div>
             <div>${new Date(order.created_at).toLocaleString()}</div>
